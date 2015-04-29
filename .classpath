@@ -19,17 +19,18 @@
 	<classpathentry kind="lib" path="xml/sites2equipment.xslt"/>
 	<classpathentry kind="lib" path="xml/sites2html.xslt"/>
 	<classpathentry kind="lib" path="xml/sites.xml"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/mysql-connector-java-5.1.35-bin.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/EclipseLink 2.5.2">
 		<attributes>
 			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 			<attribute name="owner.project.facets" value="jpt.jpa"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="src/edu/neu/cs5200/api/dao/SiteDao.java"/>
-	<classpathentry kind="lib" path="src/edu/neu/cs5200/api/model/Equipment.java"/>
-	<classpathentry kind="lib" path="src/edu/neu/cs5200/api/model/Site.java"/>
-	<classpathentry kind="lib" path="src/edu/neu/cs5200/api/model/Sites.java"/>
-	<classpathentry kind="lib" path="src/edu/neu/cs5200/api/model/Tower.java"/>
+	<classpathentry kind="lib" path="src/edu/neu/cs5200/hw6/dao/SiteDao.java"/>
+	<classpathentry kind="lib" path="src/edu/neu/cs5200/hw6/models/Equipment.java"/>
+	<classpathentry kind="lib" path="src/edu/neu/cs5200/hw6/models/Site.java"/>
+	<classpathentry kind="lib" path="src/edu/neu/cs5200/hw6/models/Sites.java"/>
+	<classpathentry kind="lib" path="src/edu/neu/cs5200/hw6/models/Tower.java"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>
